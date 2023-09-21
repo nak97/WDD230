@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+  text-decoration: none;}
+  
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  
+}
+
+img{
+  height: 200px;
+  width: 182px;
+  margin-right: 58px;
+}
+
