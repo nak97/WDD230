@@ -42,36 +42,24 @@ nav a {
 }
 hr {width: 463px}
 main {
-  display: flex;
-  grid-gap: 41px;
-  justify-content: center;
+   display: grid;
+   grid-gap: 10px;
+   justify-content: center;
 }
 .card-1 h3{
 background-color: #E9EB87;
 margin: 0;
 padding: 18px;
-width: 548px;
 }
 .card-2 {
 background-color: #E9EB87;
 margin: 0;
 padding: 18px;
-width: 200px;
 }
 .card {
   display: inline-block;
   border: black 3px solid;
+  width: 471px;
   margin-top: 30px;
 }
 
-footer {
-  display: flex;
-  margin-top: 28px;
-  width: 993px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  border: 3px black solid;
-  height: 70px;
-  background-color: #E9EB87;
-}

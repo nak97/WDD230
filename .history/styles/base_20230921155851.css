@@ -50,13 +50,11 @@ main {
 background-color: #E9EB87;
 margin: 0;
 padding: 18px;
-width: 548px;
 }
 .card-2 {
 background-color: #E9EB87;
 margin: 0;
 padding: 18px;
-width: 200px;
 }
 .card {
   display: inline-block;
@@ -64,14 +62,3 @@ width: 200px;
   margin-top: 30px;
 }
 
-footer {
-  display: flex;
-  margin-top: 28px;
-  width: 993px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  border: 3px black solid;
-  height: 70px;
-  background-color: #E9EB87;
-}
