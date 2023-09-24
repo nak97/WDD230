@@ -73,17 +73,17 @@ padding-bottom: 2.125rem;
 .card {
   
   border: black 3px solid;
+  margin-top: 1.875rem;
 }
 
 footer {
   display: flex;
   margin-top: 1.75rem;
-  max-width: 62.0625rem;
+  width: 62.0625rem;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   border: 0.1875rem black solid;
   height: 4.375rem;
   background-color: #E9EB87;
-  
 }

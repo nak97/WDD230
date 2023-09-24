@@ -1,4 +1,4 @@
-@media screen and (max-width: 578px) {
+@media screen and (min-width: 578px) {
   body{
     text-align: center;
     text-decoration: none;
@@ -10,9 +10,9 @@
   }
    main {
      grid-template-areas: 
-     " title"
-     " card-1"
-     " card-2"
+     ". title"
+     ". card-1"
+     ". card-2"
      !important;
      grid-template-columns: 1fr !important;
   }

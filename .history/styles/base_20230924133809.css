@@ -34,9 +34,6 @@ nav {
   align-items: center;
 }
 
-.title {
-  grid-area: title ;
-}
 
 nav a {
   color: #E9EB87;
@@ -46,18 +43,18 @@ hr {width: 28.9375}
 
 main {
   display: grid;
-  grid-template-rows: .1fr 1fr;
+  grid-template-rows: 3rem 20rem;
   justify-content: center;
-  grid-template-columns: 1fr .5fr 1fr;
-  grid-template-areas:
-  " title title title"
-  "card-1 card-1 card-2";
   grid-gap: 1rem;
-
+  grid-template-columns: 20rem 20rem;
+  grid-template-areas: 
+  " title title title"
+  "card-1 card-1 card-2"
+  
 }
 
 .card-1 {
- grid-area: card-1;
+ ;
 
 }
 .card-1 h3{
@@ -68,22 +65,25 @@ padding-bottom: 2.125rem;
 
 .card-2 {
   background-color: #E9EB87;
-  grid-area: card-2;
+  margin: 0;
+  padding: 1.125rem;
+  width: 12.5rem;
+  margin-left: 4rem;
 }
 .card {
   
   border: black 3px solid;
+  margin-top: 1.875rem;
 }
 
 footer {
   display: flex;
   margin-top: 1.75rem;
-  max-width: 62.0625rem;
+  width: 62.0625rem;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   border: 0.1875rem black solid;
   height: 4.375rem;
   background-color: #E9EB87;
-  
 }

@@ -10,11 +10,9 @@
   }
    main {
      grid-template-areas: 
-     " title"
-     " card-1"
-     " card-2"
-     !important;
-     grid-template-columns: 1fr !important;
+     "title"
+     "card-1"
+     "card-2"
   }
 
 }
