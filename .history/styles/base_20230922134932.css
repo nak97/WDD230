@@ -40,7 +40,11 @@ nav a {
   text-decoration: none;
 }
 hr {width: 28.9375}
-
+main {
+  display: grid;
+ 
+  justify-content: center;
+}
 
 .card-1 {
  max-width: 34.25rem;

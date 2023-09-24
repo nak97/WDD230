@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px) {
+ .container {  grid-template-columns: repeat(auto-fit, minmax(15rem));}
+ 
+.title {
+
+}
+
+ .card-1 {
+
+ }
+
+ .card-2{
+   
+ }
+  .card-3 {
+  grid-row: ;
+ }
+
+ .footer {
+
+ }
+
+}

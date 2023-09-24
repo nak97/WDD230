@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 13rem 13rem 13rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title  {
+  grid-column: 1/4;
+  background-color: dodgerblue;
+
+}
+
+.card-1 {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  border: 1px black solid;
+  padding-top: 0.7px;
+}
+
+.info {
+  color: cadetblue;
+}
+
+.card-2 {
+  grid-row: 2;
+  border: 1px black solid;
+  padding-top: 0.2px;
+
+}
+
+.card-3 {
+  grid-row: 2;
+  border: 1px black solid;
+  padding-top: 0.3px;
+
+}
+
+.footer {
+  grid-column: 1/4;
+  background-color: dodgerblue;
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 800px) {
+ .container {  grid-template-rows: 1fr 1fr 1fr 1fr;}
+ 
+.title {
+  
+}
+
+ .card-1 {
+
+ }
+
+ .card-2{
+   
+ }
+  .card-3 {
+  grid-row: ;
+ }
+
+ .footer {
+
+ }
+
+}

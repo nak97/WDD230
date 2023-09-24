@@ -1,0 +1,8 @@
+@media screen and (min-width: 800px) {
+ .container {grid-template-rows: repeat(5fr );}
+ 
+  .card-3 {
+  grid-row: ;
+ }
+
+}

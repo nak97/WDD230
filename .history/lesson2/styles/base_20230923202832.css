@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 13rem 13rem 13rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title  {
+  grid-column: 1/4;
+  background-color: dodgerblue;
+
+}
+
+.card-1 {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  border: 1px black solid;
+}
+
+.card-2 {
+  grid-row: 2;
+  border: 1px black solid;
+
+}
+
+.card-3 {
+  grid-row: 2;
+  border: 1px black solid;
+
+}
+
+.footer {
+  grid-row: 3;
+  grid-column: 2;
+  background-color: dodgerblue;
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: 800px) {
+ .container {grid-template-rows:18rem 18rem 18rem 18rem ;}
+ .card-3 {
+  grid-row: ;
+ }
+
+}
