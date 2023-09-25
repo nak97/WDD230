@@ -13,11 +13,13 @@ img {
 .title  {
   grid-column: 1/4;
   background-color: dodgerblue;
+  grid-area: title;
 
 }
 
 .card-1 {
   border: 0.0625rem black solid;
+  grid-area: card-1;
 }
 .info {
   color: cadetblue;
@@ -25,12 +27,15 @@ img {
 
 .card-2 {
 border: 0.0625rem black solid;
+grid-area: card-2;
 }
 
 .card-3 {
   border: 0.0625rem black solid;
+  grid-area: card-3;
 }
 
 .footer {
   background-color: dodgerblue;
+  grid-area: footer ;
 }
