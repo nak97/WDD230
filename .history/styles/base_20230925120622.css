@@ -45,7 +45,7 @@ nav a {
 hr {width: 28.9375}
 
 main {
-  display: grid !important;
+  display: grid;
   grid-template-rows: .1fr 1fr;
   justify-content: center;
   grid-template-columns: 1fr .5fr 1fr;
