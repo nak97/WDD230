@@ -1,14 +1,9 @@
 .container {
   display: grid;
-  grid-template-columns:13rem 13rem 13rem;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   align-items: center;
   justify-content: center;
-  grid-template-areas: 
-  "title title title"
-  "card-1 card-2 card-3"
-  "footer footer footer"
-  ;
 }
 
 img {
@@ -19,29 +14,31 @@ img {
 .title  {
   grid-column: 1/4;
   background-color: dodgerblue;
-  grid-area: title;
 
 }
 
 .card-1 {
+  grid-column: 2/2;
+  grid-row: 2/2;
   border: 0.0625rem black solid;
-  grid-area: card-1;
 }
 .info {
   color: cadetblue;
 }
 
 .card-2 {
-border: 0.0625rem black solid;
-grid-area: card-2;
+  grid-row: 2;
+  border: 0.0625rem black solid;
+
 }
 
 .card-3 {
+  grid-row: 2;
   border: 0.0625rem black solid;
-  grid-area: card-3;
+
 }
 
 .footer {
+  grid-column: 1/4;
   background-color: dodgerblue;
-  grid-area: footer ;
 }
