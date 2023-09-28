@@ -5,7 +5,7 @@
   }
     
   nav {
-    display: none !important;
+    flex-direction: column;
     
   }
    main {
@@ -24,7 +24,6 @@
 	background-color: #eee;
 	color: #000;
  	position: absolute;
-  top: 1rem;
 	right: 1rem;
 }
 

@@ -5,7 +5,8 @@
   }
     
   nav {
-    display: none !important;
+    flex-direction: column;
+    display: none;
     
   }
    main {
