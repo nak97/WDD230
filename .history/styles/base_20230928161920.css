@@ -3,9 +3,6 @@ body{
   text-decoration: none;
 }
   
-button {
-  display: none;
-}
 header {
   display: flex;
     justify-content: center;

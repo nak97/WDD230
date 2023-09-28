@@ -11,7 +11,9 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-  
+  .main{
+    margin-bottom: 1rem;
+  }
   .card-2 {
     grid-row: 2;
   }
