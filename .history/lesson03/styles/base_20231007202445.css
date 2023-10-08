@@ -1,8 +1,9 @@
-
+ /* body{
+  background-image: url(https://imgs.search.brave.com/JFc6OAb8GeWjekpeVgYFRLz9ljMKk6hGTTPaqdilQQg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzI4LzMzLzIz/LzM2MF9GXzMyODMz/MjM5NV82THd3Z0Rr/eDdqTlU4MVBDYW9k/UUtwVGZENjVUSjJ6/Ry5qcGc); 
+  background-repeat: no-repeat;
+}  */
 body{
   background-color: #DAD2D8
-  /* background-image: url(https://imgs.search.brave.com/JFc6OAb8GeWjekpeVgYFRLz9ljMKk6hGTTPaqdilQQg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzI4LzMzLzIz/LzM2MF9GXzMyODMz/MjM5NV82THd3Z0Rr/eDdqTlU4MVBDYW9k/UUtwVGZENjVUSjJ6/Ry5qcGc); 
-  background-repeat: no-repeat; */
 }
 nav{
   display: flex;
@@ -21,23 +22,17 @@ section {
 .current-events{
   height: 10rem;
   background-color: #A8201A; 
-  color:#0F8B8D;
 }
 
 .weather  {
   grid-column: 1/3;
   height: 20rem;
-  background-color:#143642;
-  color:#0F8B8D;
-
 }
 
 .spotlight {
   grid-column: 2;
   grid-row: 1;
   height: 10rem;
-  background-color: #EC9A29; 
-  color:#0F8B8D;
 }
 footer{
   text-align: center;
@@ -46,8 +41,4 @@ footer{
 
 .img-caption {
 text-align: center;
-}
-
-.bg-img {
- background-color: #0F8B8D;
 }
