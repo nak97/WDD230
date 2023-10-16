@@ -19,23 +19,15 @@ section {
   border: 1px solid black;
 }
 
-.Join {
+.join {
   background-image: url(https://imgs.search.brave.com/JFc6OAb8GeWjekpeVgYFRLz9ljMKk6hGTTPaqdilQQg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzI4LzMzLzIz/LzM2MF9GXzMyODMz/MjM5NV82THd3Z0Rr/eDdqTlU4MVBDYW9k/UUtwVGZENjVUSjJ6/Ry5qcGc);
-height: 18rem;
-background-repeat: no-repeat;
-width:31rem;
-}
-
-.Join a {
-  color: white;
 }
 
 .current-events{
   height: 10rem;
-  background-color: skyblue; 
+  background-color: #A8201A; 
   color:#0F8B8D;
-  font-family: 'Young Serif', serif;
-  grid-row:2;
+  font-family: 'Young Serif', serif
 }
 
 .weather  {
@@ -49,7 +41,7 @@ width:31rem;
 
 .spotlight {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   height: 10rem;
   background-color: rebeccapurple; 
   color:#0F8B8D;
