@@ -18,24 +18,16 @@ nav{
 main {
   display: grid;
   grid-template-columns: 1fr;
-  overflow: hidden;
+  /* overflow: hidden; */
   grid-row-gap: 2rem;
 }
 
  .join {
-  background-image: url('../images/gbG4c51.jpg');
-  width:auto;
+  /* background-image: url('../images/gbG4c51.jpg'); */
+  width: 100rem;
   height: 26rem;
-  background-size: cover  ;
+  background-size: contain  ;
   background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-}
-
-.join a {
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
 }
 
 .events {
@@ -52,7 +44,7 @@ main {
 
 .weather  {
   height: 20rem;
-  width: auto;
+  width: 20rem;
   background-color:#6f7985;
   font-family: 'Young Serif', serif;
 }
@@ -62,7 +54,7 @@ main {
   width: 4rem;
 }
 
-.spotlight-1 {
+/* .spotlight-1 {
   height: 10rem;
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
@@ -95,6 +87,6 @@ footer{
 
 .img-caption {
 text-align: center;
-}
+} */
 
 
