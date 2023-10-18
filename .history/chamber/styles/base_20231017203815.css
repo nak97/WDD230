@@ -1,7 +1,7 @@
-body {
+
+body{
   background-color: #ecd9bd
 }
-
 nav{
   display: flex;
   justify-content: space-evenly;
@@ -17,62 +17,76 @@ nav{
 
 main {
   display: grid;
-  overflow: hidden;
-  grid-row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  margin-top: 7rem;
+  font-family: 'Young Serif', serif
+}
+section {
+  border: 1px solid black;
 }
 
- .join {
+.join {
   background-image: url('../images/gbG4c51.jpg');
   width: 100rem;
   height: 26rem;
-  background-size: contain  ;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.join a {
+  color: white;
+}
+
+.current-events{
+  height: 10rem;
+  background-color: #6f7985; 
+  font-family: 'Young Serif', serif;
+  grid-row:;
+}
+
+.weather  {
+  grid-column: 1/3;
+  height: 20rem;
+  background-color:#6f7985;
+  font-family: 'Young Serif', serif
+
 }
 
 .sun {
   height: 4rem;
-  width: 4rem;
-}
-
-.weather  {
-  height: 20rem;
-  background-color:#6f7985;
-  font-family: 'Young Serif', serif;
-}
+  width: 4rem;}
 
 .spotlight-1 {
+  grid-column: ;
+  grid-row:  ;
   height: 10rem;
   background-color: #6f7985; 
-  font-family: 'Young Serif', serif;
-  border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
+  font-family: 'Young Serif', serif
 }
 
-.spotlight-2 {
 
+.spotlight-2{
   background-color: #6f7985; 
-  font-family: 'Young Serif', serif;
-  border: 1px solid black;  
-  width: 22rem;
-  height: 11rem;
+  
+
+
+
 }
+
 
 .spotlight-3{
   background-color: #6f7985; 
-  font-family: 'Young Serif', serif;
-  border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
+
+
+
 }
 
-.spotlight {
-  display: flex;
-}
 
 footer{
   text-align: center;
-  margin-top:5rem ;
+  margin-top:11rem ;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -80,4 +94,6 @@ footer{
 text-align: center;
 }
 
-
+.bg-img {
+ background-color: #0F8B8D;
+}

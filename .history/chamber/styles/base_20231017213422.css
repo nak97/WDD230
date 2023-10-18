@@ -17,8 +17,7 @@ nav{
 
 main {
   display: grid;
-  overflow: hidden;
-  grid-row-gap: 2rem;
+
 }
 
  .join {
@@ -45,34 +44,56 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
+
+
+
 }
 
-.spotlight-2 {
 
+
+
+
+
+/* 
+
+
+
+
+
+.sun {
+  height: 4rem;
+  width: 4rem;}
+
+  .weather  {
+    height: 20rem;
+    background-color:#6f7985;
+    font-family: 'Young Serif', serif
+  
+  } */
+  /* 
+  .spotlight-1 {
+    height: 10rem;
+    background-color: #6f7985; 
+    font-family: 'Young Serif', serif;
+    border: 1px solid black;
+  }
+
+.spotlight-2{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
-  border: 1px solid black;  
-  width: 22rem;
-  height: 11rem;
+  border: 1px solid black;
 }
+
 
 .spotlight-3{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
-}
-
-.spotlight {
-  display: flex;
 }
 
 footer{
   text-align: center;
-  margin-top:5rem ;
+  margin-top:11rem ;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -80,4 +101,4 @@ footer{
 text-align: center;
 }
 
-
+ */

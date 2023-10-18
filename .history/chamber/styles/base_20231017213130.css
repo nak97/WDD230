@@ -17,11 +17,10 @@ nav{
 
 main {
   display: grid;
-  overflow: hidden;
-  grid-row-gap: 2rem;
+
 }
 
- .join {
+.join {
   background-image: url('../images/gbG4c51.jpg');
   width: 100rem;
   height: 26rem;
@@ -31,48 +30,38 @@ main {
 
 .sun {
   height: 4rem;
-  width: 4rem;
-}
+  width: 4rem;}
 
-.weather  {
-  height: 20rem;
-  background-color:#6f7985;
-  font-family: 'Young Serif', serif;
-}
+  .weather  {
+    height: 20rem;
+    background-color:#6f7985;
+    font-family: 'Young Serif', serif
+  
+  }
 
-.spotlight-1 {
-  height: 10rem;
+  .spotlight-1 {
+    height: 10rem;
+    background-color: #6f7985; 
+    font-family: 'Young Serif', serif;
+    border: 1px solid black;
+  }
+
+.spotlight-2{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
 }
 
-.spotlight-2 {
-
-  background-color: #6f7985; 
-  font-family: 'Young Serif', serif;
-  border: 1px solid black;  
-  width: 22rem;
-  height: 11rem;
-}
 
 .spotlight-3{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
-}
-
-.spotlight {
-  display: flex;
 }
 
 footer{
   text-align: center;
-  margin-top:5rem ;
+  margin-top:11rem ;
   font-family: 'Montserrat', sans-serif;
 }
 

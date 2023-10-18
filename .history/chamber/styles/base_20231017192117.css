@@ -1,0 +1,87 @@
+
+body{
+  background-color: #DAD2D8
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  margin-top: 7rem;
+  font-family: 'Young Serif', serif
+}
+section {
+  border: 1px solid black;
+}
+
+.join {
+  background-image: url('../images/texas-6796059_640.png');
+  width: 40rem;
+  height: 26rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.join a {
+  color: white;
+}
+
+.current-events{
+  height: 10rem;
+  background-color: skyblue; 
+  color:#0F8B8D;
+  font-family: 'Young Serif', serif;
+  grid-row:2;
+}
+
+.weather  {
+  grid-column: 1/3;
+  height: 20rem;
+  background-color:rebeccapurple;
+  color:#0F8B8D;
+  font-family: 'Young Serif', serif
+
+}
+
+.sun {
+  height: 4rem;
+  width: 4rem;}
+
+.spotlight-1 {
+  grid-column: 1/2;
+  grid-row: 2;
+  height: 10rem;
+  background-color: rebeccapurple; 
+  color:#0F8B8D;
+  font-family: 'Young Serif', serif
+}
+
+
+.spotlight-2{
+
+}
+
+
+
+.spotlight-3{
+  
+}
+
+
+footer{
+  text-align: center;
+  margin-top:11rem ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-caption {
+text-align: center;
+}
+
+.bg-img {
+ background-color: #0F8B8D;
+}

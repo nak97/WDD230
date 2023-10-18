@@ -19,6 +19,7 @@ main {
   display: grid;
   overflow: hidden;
   grid-row-gap: 2rem;
+
 }
 
  .join {
@@ -45,8 +46,6 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
 }
 
 .spotlight-2 {
@@ -54,20 +53,12 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;  
-  width: 22rem;
-  height: 11rem;
 }
 
 .spotlight-3{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
-}
-
-.spotlight {
-  display: flex;
 }
 
 footer{

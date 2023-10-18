@@ -19,6 +19,10 @@ main {
   display: grid;
   overflow: hidden;
   grid-row-gap: 2rem;
+/* grid-template-areas: 
+" "
+" "
+" spotlight-1 spotlight-2 spotlight-3 "; */
 }
 
  .join {
@@ -45,8 +49,7 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
+  /* grid-area:spotlight-1 ; */
 }
 
 .spotlight-2 {
@@ -54,20 +57,21 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;  
-  width: 22rem;
-  height: 11rem;
+  /* grid-area:spotlight-2 ; */
+
 }
 
 .spotlight-3{
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
-  width: 22rem;
-  height: 11rem;
+  /* grid-area:spotlight-3 ; */
+
 }
 
 .spotlight {
   display: flex;
+  flex-direction: column;
 }
 
 footer{
