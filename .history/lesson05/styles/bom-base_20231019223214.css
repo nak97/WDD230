@@ -52,15 +52,12 @@ ul {
 	list-style: none;
 }
 
-div p {
+img a {
 	position: relative;
 	left: 6rem;
 	top: 7rem;
 	font-size: 2rem;
 }
-.temple {
-	height: 37rem;
-	width: 55rem;
 }
 
 li {
@@ -69,8 +66,14 @@ li {
 	justify-content: space-between;
 }
 
+img {
+	position: relative;
+	left: 6rem;
+	top: 7rem;
+	font-size: 2rem;
+}
 
-@media only screen and (max-width: 520px) {
+@media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -79,7 +82,7 @@ li {
 		width: 320px;
 	}
 
-  .temple {
+  img {
     height: 20rem;
     width: 25rem;
   }

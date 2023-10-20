@@ -58,9 +58,9 @@ div p {
 	top: 7rem;
 	font-size: 2rem;
 }
-.temple {
-	height: 37rem;
-	width: 55rem;
+img {
+	height: 20rem;
+	width: 25rem;
 }
 
 li {
@@ -70,7 +70,7 @@ li {
 }
 
 
-@media only screen and (max-width: 520px) {
+@media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -79,7 +79,7 @@ li {
 		width: 320px;
 	}
 
-  .temple {
+  img {
     height: 20rem;
     width: 25rem;
   }
