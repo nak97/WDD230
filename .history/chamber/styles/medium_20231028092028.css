@@ -1,0 +1,9 @@
+@media screen and (max-width:  578px) {
+.spotlight  {
+ grid-template-areas: 
+ "sp-1"
+ "sp-2"
+ "sp-3";
+}
+
+}

@@ -39,7 +39,7 @@ main {
 
  .join {
   background-image: url('../images/gbG4c51.jpg');
-  width:100%;
+  width:auto;
   height: 26rem;
   background-size: cover  ;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
- 
+  grid-area:sp-1;
 }
 
 .spotlight-2 {
@@ -94,6 +94,7 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;  
+  grid-area:sp-2;
 
 }
 
@@ -101,6 +102,7 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
+  grid-area:sp-3;
 
 }
 

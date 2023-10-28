@@ -39,7 +39,7 @@ main {
 
  .join {
   background-image: url('../images/gbG4c51.jpg');
-  width:100%;
+  width:auto;
   height: 26rem;
   background-size: cover  ;
   background-repeat: no-repeat;
