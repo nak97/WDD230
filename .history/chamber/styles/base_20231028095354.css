@@ -2,10 +2,14 @@ body {
   background-color: #ecd9bd
 }
 
-.button { 
-display:none;
+i { 
+  display: none;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
 
 nav{
   display: flex;

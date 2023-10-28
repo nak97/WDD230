@@ -7,32 +7,15 @@
 
 .button { 
   display: block;
-  position: relative;
-  left: 23rem;
-
-}
-nav a {
-  display: none;
-}
-.texas {
-  position: relative;
-  right: 14.94rem;
 
 }
 
-#mode{
-  left: 15rem;
-  top: 0rem;
-}
 
 .join {
   text-align: left;
 }
 
-.hero-img {
-  height: 14rem;
-  width: 34rem;
-}
+
 
   .spotlight-1{
 grid-area: sp-1;

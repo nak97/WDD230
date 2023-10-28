@@ -8,7 +8,7 @@
 .button { 
   display: block;
   position: relative;
-  left: 23rem;
+  left: 31rem;
 
 }
 nav a {
@@ -16,13 +16,8 @@ nav a {
 }
 .texas {
   position: relative;
-  right: 14.94rem;
+  right: 22.94rem;
 
-}
-
-#mode{
-  left: 15rem;
-  top: 0rem;
 }
 
 .join {
@@ -30,8 +25,8 @@ nav a {
 }
 
 .hero-img {
-  height: 14rem;
-  width: 34rem;
+  height:20rem;
+  width: 20rem;
 }
 
   .spotlight-1{
