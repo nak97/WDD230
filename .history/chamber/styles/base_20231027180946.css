@@ -12,8 +12,7 @@ nav{
 
 #mode {
   position: relative;
-  left: 100rem;
-  top: 5rem;
+  left: 5rem;
 }
 
 .hero-img {
@@ -77,11 +76,6 @@ main {
   width: 4rem;
 }
 
-.spotlight {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .spotlight-1 {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
@@ -99,6 +93,11 @@ main {
   background-color: #6f7985; 
   font-family: 'Young Serif', serif;
   border: 1px solid black;
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer{
