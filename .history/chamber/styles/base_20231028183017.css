@@ -139,7 +139,6 @@ text-align: center;
   border:1px solid black;
   height: 67rem;
   grid-row: 2;
-  font-family: 'Montserrat', sans-serif;
 }
 iframe {
   margin-left: 3rem;
@@ -147,12 +146,9 @@ iframe {
 
 .section-3{
   border:1px solid black;
-  height: 40rem;
+  height: 20rem;
   grid-row: 5;
   font-family: 'Montserrat', sans-serif;
-}
-.jack {
-  margin-left: 5rem;
 }
 
 img{

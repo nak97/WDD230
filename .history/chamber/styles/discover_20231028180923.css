@@ -1,0 +1,42 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 22rem 22rem 22rem 22rem 22rem 22rem;
+  grid-gap: 1rem;
+}
+
+
+
+.section-1{
+  border:1px solid black;
+  height: 20rem;
+  grid-column: 1;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.section-2{
+  border:1px solid black;
+  height: 20rem;
+  grid-row: 2;
+}
+
+.section-3{
+  border:1px solid black;
+  height: 20rem;
+  grid-row: 3;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+img{
+  height: 20rem;
+  width: 30rem;
+}
+
+img:hover {box-shadow: 0 0 50px #333;}
+
+
+
+

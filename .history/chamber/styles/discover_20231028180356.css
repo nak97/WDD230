@@ -1,0 +1,38 @@
+main{
+  display: grid;
+  grid-template-columns: 41rem 1fr ;
+
+
+  grid-gap: 1rem;
+
+}
+
+.section-1{
+  border:1px solid black;
+  height: 20rem;
+  grid-column: 1;
+}
+
+.section-2{
+  border:1px solid black;
+  height: 20rem;
+  grid-row: 2;
+}
+
+.section-3{
+  border:1px solid black;
+  height: 20rem;
+  grid-row: 3;
+}
+
+
+img{
+  height: 20rem;
+  width: 30rem;
+}
+
+img:hover {box-shadow: 0 0 50px #333;}
+
+
+
+

@@ -1,0 +1,42 @@
+main{
+  display: grid;
+  grid-template-columns: 41rem 30rem  ;
+  grid-template-areas:
+  "sec-1 " 
+  "sec-2"  
+  "sec-3"  
+  ;
+
+  grid-gap: 1rem;
+
+}
+
+.section-1{
+  grid-area:sec-1;
+  border:1px solid black;
+  height: 20rem;
+}
+
+.section-2{
+  grid-area:sec-2;
+  border:1px solid black;
+  height: 20rem;
+}
+
+.section-3{
+  grid-area:sec-3;
+  border:1px solid black;
+  height: 20rem;
+}
+
+
+img{
+  height: 20rem;
+  width: 30rem;
+}
+
+img:hover {box-shadow: 0 0 50px #333;}
+
+
+
+

@@ -1,0 +1,28 @@
+main{
+  display: grid;
+  grid-template-columns: 41rem 50rem;
+  grid-template-areas:
+
+}
+
+section {
+  border:1px solid black;
+height: 20rem;
+}
+
+.section-1{
+  grid-area:sec-1
+}
+
+.section-2{
+  grid-area:sec-2
+}
+
+.section-3{
+  grid-area:sec-3
+}
+
+
+
+
+

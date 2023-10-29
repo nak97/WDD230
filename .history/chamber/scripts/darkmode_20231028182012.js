@@ -8,7 +8,7 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🔆";
 	} else {
 		main.style.background = "#ecd9bd";
-		main.style.color = "black";
+		main.style.color = "#eee";
 		modeButton.textContent = "🕶️";
 	}
 });

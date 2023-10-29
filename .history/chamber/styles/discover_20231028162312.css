@@ -1,0 +1,15 @@
+main{
+  display: grid;
+  grid-template-columns: 41rem 50rem;
+
+}
+
+section {
+  border:1px solid black;
+height: 20rem;
+}
+
+
+
+
+

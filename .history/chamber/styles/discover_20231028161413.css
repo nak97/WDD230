@@ -1,0 +1,15 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section {
+  border:1px solid black;
+}
+
+div {
+  border: 1px solid black;
+}
+
+
+
