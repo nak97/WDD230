@@ -1,0 +1,18 @@
+table {
+  border: thin solid black;
+  text-align: center;
+}
+
+th{
+
+}
+
+td {
+  border: solid black thin;
+}
+
+thead {
+  background: black;
+  color: white;
+  border: thin solid black;
+}

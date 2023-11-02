@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+button {
+	padding: 10px;
+	font-size: 1.2rem;
+	font-weight: 700;
+}

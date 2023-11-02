@@ -1,0 +1,12 @@
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+button {
+	padding: 10px;
+	font-size: 1.2rem;
+	font-weight: 700;
+}

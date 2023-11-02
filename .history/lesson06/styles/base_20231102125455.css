@@ -1,0 +1,23 @@
+table {
+  border: thin solid black;
+  text-align: center;
+  border-collapse: collapse ;
+}
+
+td {
+  border: solid black thin;
+}
+
+thead {
+  background: black;
+  color: white;
+  border: thin solid black;
+}
+
+caption {
+  caption-side: bottom;
+}
+
+thead:nth-child(odd){
+  background-color:gray;
+}
