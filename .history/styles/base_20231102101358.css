@@ -48,9 +48,8 @@ nav a {
 hr {width: 28.9375}
 
 .sun  {
-  width: 4rem;
-  height: 4rem;
-  float: left;
+  width: 10rem;
+  height: 10rem;
 }
 main {
   display: grid !important;
