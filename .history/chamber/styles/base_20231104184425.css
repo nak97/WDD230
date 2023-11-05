@@ -165,27 +165,6 @@ img:hover {box-shadow: 0 0 50px #333;}
 
 /* join now css */
 
-form {
-  text-align: center;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
-label {
-  font-size: 30px;
-  margin-bottom: 1rem;
-}
-
-input{
-  height: 2rem;
-  width:15rem;
-}
-
-textarea {
-  height: 4rem;
-  width:15rem ;
-}
-
-
 
 #user {
   color: red;
@@ -193,18 +172,7 @@ textarea {
   letter-spacing: 1px;
   margin-top: 0 ;
   margin-bottom: 24px;
-  display: none;
 }
-
-
-/* thank you page */
-
-.thanks {
-text-align: center;
-margin-top: 19rem;
-margin-bottom: 20rem;
-}
-
 
 
 

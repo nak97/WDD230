@@ -172,17 +172,11 @@ form {
 }
 label {
   font-size: 30px;
-  margin-bottom: 1rem;
 }
 
 input{
-  height: 2rem;
+  height: 5rem;
   width:15rem;
-}
-
-textarea {
-  height: 4rem;
-  width:15rem ;
 }
 
 

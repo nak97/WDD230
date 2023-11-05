@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230 - Nicholas Keen  - Web Frontend Development - chamber">
+  <meta name="author" content="Nicholas Keen">
+  <meta property="og:title" content="facebook"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="facebook.com" />
+  <meta property="og:image" content="images/facebook-meta-tag-pic.png" />
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Montserrat:wght@700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <title>Chamber</title>
+</head>
+<body>
+  <header>
+    <nav class="navigation" >
+      <p class="button"><i class="fa-regular fa-bars"></i></p>
+      <div id="mode">
+        🕶️
+      </div>
+      <img class="texas" width="" src="images/texas-6796059_640webp.webp" alt="">
+      <a href="">Home</a>
+      <a href="./discover.html">Discover</a>
+      <a href="#">Directory</a>
+      <a href="#">Join</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form id="login-form" action="./thankyou.html">
+        <label for="fname" required> First Name: </label> <br>
+        <input type="text" id="fname" name="fname" ><br>
+
+        <label for="lname" required> Last Name: </label> <br>
+        <input type="text" id="lname" name="lname" ><br>
+
+        <label for="position" required> Title or Position:  </label> <br>
+        <p id="user"> pLease Enter a valid Title or Position</p>
+        <input type="text" id="position" name="position"  > <br>
+
+        <label for="email" required>Email: </label> <br>
+        <input type="email" id="email" name="email" required placeholder="john@aol.com"><br>
+
+        <label for="phone"> Phone Number*: </label> <br>
+        <input type="tel" id="phone" name="phone" required>  <br>
+
+        
+        <label for="business name"> Business/organization's name*: </label> <br>
+        <input type="text" id="business name" name="business name" required>  <br>
+
+        <label for="membership"> Membership Level:* </label> <br>
+        <select id="membership" name="membership" required> <br>
+          <option value="Np Membership">Np Membership is for non profit organizations and there is no fee</option> 
+          <option value="bronze"> Bronze Membership</option> 
+          <option value="silver">Silver Membership</option> 
+          <option value="gold">Gold Membership</option> 
+        </select> <br>
+
+        <label for="business name"> Business/organization description*: </label><br>
+        <textarea id="description" name="description" required> </textarea> <br>
+
+      <!-- use javascript -->
+          <label for="time"></label>
+          <input type="hidden" id="time" name="time" required> 
+
+
+
+<input type="submit" value="Submit">
+
+</form>
+</main>
+  <footer>
+  <p> <i class="fa-sharp fa-light fa-copyright"></i>2023 </p>
+  <p> Nicholas Keen |  WDD -230 | <span id="lastModified"></span> </p> 
+  <p>phone:111-111-1111 | email: cholulaChamber@aol.com</p>
+  </footer>
+  <script src="./scripts/regex.js"></script>
+<script src="./scripts/darkmode.js"></script>
+<script src="./scripts/visits.js"></script>
+<script src="./scripts/windchill.js"></script>
+<script src="./scripts/getdates.js"></script>
+<script src="https://kit.fontawesome.com/615002bc5f.js" crossorigin="anonymous"></script>
+<script src="./scripts/hamburger-menu.js"></script>
+</body>
+</html>
