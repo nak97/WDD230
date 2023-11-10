@@ -1,0 +1,63 @@
+{
+  "lessons" : [
+
+{
+  "lesson":"01",
+  "links":[
+   {
+    "url":"./lesson02/design-principles.html",
+    "title":"media query"
+
+   }
+
+  ]
+
+},
+    {
+      "lesson" : "02",
+      "links": [
+        {
+          "url":"./lesson02/design-principles.html",
+          "title":"design principles document"
+        },
+
+        {
+          "url":"https://codepen.io/blazzard-jason/pen/LYjLRqN",
+          "title":"Pseudo-Element"
+        },
+
+
+        {
+          "url":"https://codepen.io/nak97/pen/LYMmWJq",
+          "title":"responsive menu"
+        }
+      ]
+
+    },
+
+    {
+      "lesson":"03",
+      "links": [
+        {
+          "url":"./lesson03/lazy-loading/lazy-load.html",
+          "title":"lazy load"
+        },
+
+        {
+          "url":"./lesson03/images/landscape.webp",
+          "title":"Lazy loading"
+        }
+      ]
+
+
+      
+    }
+
+
+  ]
+
+
+
+
+
+}

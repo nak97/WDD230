@@ -1,0 +1,47 @@
+{
+  "lessons" : [
+    {
+      "lesson" : "02",
+      "links": [
+        {
+          "url":"./lesson02/design-principles.html",
+          "title":"design principles document"
+        },
+
+        {
+          "url":"https://codepen.io/blazzard-jason/pen/LYjLRqN",
+          "title":"Pseudo-Element"
+        },
+
+
+        {
+          "url":"https://codepen.io/nak97/pen/LYMmWJq",
+          "title":"responsive menu"
+        }
+      ]
+
+    },
+
+    {
+      "lesson":"03",
+      "links": [
+        {
+          "url":"./lesson02/design-principles.html",
+          "title":"design principles document"
+        },
+        "url":"./lesson02/design-principles.html",
+        "title":"design principles document"
+        
+
+
+      ]
+    }
+
+
+  ]
+
+
+
+
+
+}
