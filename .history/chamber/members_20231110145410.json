@@ -1,0 +1,128 @@
+{
+  "members" : [
+    {
+      "card 1": [
+        {
+          "name": "Stockwel Enterprises",
+          "address": "13523 west wood drive, austin,Texas",
+          "phone number": "512-712-1435",
+          "website": "www.stokwelenterprises.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "gold"
+
+        }
+      ]
+    },
+
+    {
+      "card 2": [
+        {
+          "name": "United risks",
+          "address": "41234 red road dr, austin,Texas",
+          "phone number": "512-354-1953",
+          "website": "www.unitedrisks.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "silver"
+
+        }
+      ]
+    },
+
+
+
+
+    {
+      "card 3": [
+        {
+          "name": "bonzai plants",
+          "address": "9862 ridge view road, austin,Texas",
+          "phone number": "512-953-1009",
+          "website": "www.bonzaiplants.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "gold"
+
+        }
+      ]
+    },
+
+
+    {
+      "card 4": [
+        {
+          "name": "bonaparte pizza inc",
+          "address": "3443 dough pizza road, austin,Texas",
+          "phone number": "512-123-4444",
+          "website": "www.bonapartepizza.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "bronze"
+
+        }
+      ]
+    },
+
+
+
+
+
+    {
+      "card 5": [
+        {
+          "name": "micro waves ovens",
+          "address": "2345 table view road, austin,Texas",
+          "phone number": "512-712-1435",
+          "website": "www.microwavesovens.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "gold"
+
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+    {
+      "card 6": [
+        {
+          "name": "watered bottles inc",
+          "address": "1412 wet wild road, austin,Texas",
+          "phone number": "512-125-5930",
+          "website": "www.wateredbottles.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "gold"
+
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+    {
+      "card 7": [
+        {
+          "name": "shark attack cleaning ",
+          "address": "4123 cleaning sucks, austin,Texas",
+          "phone number": "512-712-1435",
+          "website": "www.sharkattackcleaning.com",
+          "image" : "images/stockewel-enterprises-icon.png",
+          "membership level": "silver"
+
+        }
+      ]
+    }
+
+
+
+  ]
+
+
+}
