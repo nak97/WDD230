@@ -19,7 +19,7 @@ const displayProphets = (prophets) => {
     let birth = document.createElement('p');
    
     fullName.textContent = prophet.name +' '+ prophet.lastname;
-    birthDate.textContent = 'Date of Birth: ' + prophet.birthdate;
+    birthDate.textContent = 'date of Birth: ' + prophet.birthdate;
     birth.textContent =  'Place of birth: ' + prophet.birthplace; 
     portrait.setAttribute('src',prophet.imageurl );
     portrait.setAttribute('alt','portrait of  ');

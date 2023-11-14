@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+  color: blue;
+}
+
+div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  background-color: mediumpurple;
+  text-align: center;
+  
+}
+div h2{
+  color:purple;
+}

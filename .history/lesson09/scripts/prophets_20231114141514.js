@@ -19,14 +19,13 @@ const displayProphets = (prophets) => {
     let birth = document.createElement('p');
    
     fullName.textContent = prophet.name +' '+ prophet.lastname;
-    birthDate.textContent = 'Date of Birth: ' + prophet.birthdate;
+    birthDate.textContent = prophet.birthdate;
     birth.textContent =  'Place of birth: ' + prophet.birthplace; 
     portrait.setAttribute('src',prophet.imageurl );
     portrait.setAttribute('alt','portrait of  ');
     portrait.setAttribute('loading', "lazy");
     portrait.setAttribute('width', '340');
     portrait.setAttribute('height', '440');
-    // portrait.setAttribute('box-shadow ', '0 0 30px #777');
     
     card.appendChild(fullName);
     card.appendChild(birthDate);

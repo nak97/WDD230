@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  color: rgb(87, 82, 34);
+  color: blue;
 }
 
 div{
@@ -11,7 +11,7 @@ div{
   
 }
 div h2{
-  color:rgb(90, 83, 5);
+  color:palevioletred;
 }
 
 img {

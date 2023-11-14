@@ -1,17 +1,18 @@
 header {
   text-align: center;
-  color: rgb(87, 82, 34);
+  color: blue;
 }
 
 div{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  /* background-color: mediumpurple; */
   text-align: center;
   grid-gap: 1rem;
   
 }
 div h2{
-  color:rgb(90, 83, 5);
+  color:purple;
 }
 
 img {

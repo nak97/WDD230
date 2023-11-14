@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+  color: blue;
+}
+
+div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* background-color: mediumpurple; */
+  text-align: center;
+  grid-gap: .5rem;
+  
+}
+div h2{
+  color:purple;
+}
+
+img {
+  box-shadow: 0 0 30px #777
+}
+
+section {
+  border: 1px solid #777;
+  background-color: mediumpurple;
+}
