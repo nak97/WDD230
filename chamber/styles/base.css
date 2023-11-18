@@ -70,16 +70,13 @@ main {
 }
 
 .weather  {
+  text-align: center;
   height: 20rem;
   width: auto;
   background-color:#6f7985;
   font-family: 'Young Serif', serif;
 }
 
-.sun {
-  height: 4rem;
-  width: 4rem;
-}
 
 .spotlight {
   display: grid;
@@ -205,6 +202,14 @@ margin-top: 19rem;
 margin-bottom: 20rem;
 }
 
+
+
+/* styling for weather */
+
+.info {
+  display: flex;
+  
+}
 
 
 
