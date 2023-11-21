@@ -216,13 +216,6 @@ margin-bottom: 20rem;
 
 #banner {
   border: 2px solid black;
-  width: 50%;
-  text-align: center;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: center;
-  background-color: #6f7985;
 }
 
 
