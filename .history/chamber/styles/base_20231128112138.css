@@ -1,0 +1,237 @@
+body {
+  background-color: #ecd9bd
+}
+
+.button { 
+display:none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #edc460;
+  border: 1px solid black;
+  align-items: center;
+}
+
+#mode {
+  position: relative;
+  left: 73rem;
+}
+
+.hero-img {
+  height: 40rem;
+  width: 100rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.texas {
+  height: 6rem;
+  width: 10rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+  grid-row-gap: 2rem;
+}
+
+ .join {
+  background-image: url('../images/gbG4c51.jpg');
+  width:100%;
+  height: 26rem;
+  background-size: cover  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 43px;
+
+}
+
+.join a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.current-events{
+  border: 1px solid black;
+  background-color: #6f7985;
+  width: 62rem;
+}
+
+.weather  {
+  text-align: center;
+  height: 20rem;
+  width: auto;
+  background-color:#6f7985;
+  font-family: 'Young Serif', serif;
+}
+
+
+.spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.spotlight-1 {
+  background-color: #6f7985; 
+  font-family: 'Young Serif', serif;
+  border: 1px solid black;
+ 
+}
+
+.spotlight-2 {
+
+  background-color: #6f7985; 
+  font-family: 'Young Serif', serif;
+  border: 1px solid black;  
+
+}
+
+.spotlight-3{
+  background-color: #6f7985; 
+  font-family: 'Young Serif', serif;
+  border: 1px solid black;
+
+}
+
+footer{
+  text-align: center;
+  margin-top:5rem ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-caption {
+text-align: center;
+}
+
+/* discover page css */
+
+.main-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 22rem 22rem 22rem 22rem 22rem 22rem;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.section-1{
+  border:1px solid black;
+  height: 20rem;
+  grid-column: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-2{
+  border:1px solid black;
+  height: 67rem;
+  grid-row: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+iframe {
+  margin-left: 3rem;
+}
+
+.section-3{
+  border:1px solid black;
+  height: 40rem;
+  grid-row: 5;
+  font-family: 'Montserrat', sans-serif;
+}
+.jack {
+  margin-left: 5rem;
+}
+
+img{
+  height: 20rem;
+  width: 30rem;
+}
+
+img:hover {box-shadow: 0 0 50px #333;}
+
+
+/* join now css */
+
+form {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+label {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+input{
+  height: 2rem;
+  width:15rem;
+}
+
+textarea {
+  height: 4rem;
+  width:15rem ;
+}
+
+
+
+#user {
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 0 ;
+  margin-bottom: 24px;
+  display: none;
+}
+
+
+/* thank you page */
+
+.thanks {
+text-align: center;
+margin-top: 19rem;
+margin-bottom: 20rem;
+}
+
+
+
+/* styling for weather */
+
+.info {
+  display: flex;
+  
+}
+
+
+/* weekly meeting banner  */
+
+#banner {
+  border: 2px solid black;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  background-color: #6f7985;
+}
+
+/* directory css*/
+
+
+
+
+
+
+
+

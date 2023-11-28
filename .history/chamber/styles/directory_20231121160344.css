@@ -1,0 +1,11 @@
+#cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+img {
+  width: 178px;
+  height: 120px;
+}
