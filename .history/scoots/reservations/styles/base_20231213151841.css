@@ -1,0 +1,5 @@
+form {
+  display: grid;
+  grid-template-columns: 13rem 13rem 13rem 13rem;
+  justify-content: center;
+}

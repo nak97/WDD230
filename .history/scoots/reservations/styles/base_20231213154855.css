@@ -1,0 +1,44 @@
+form {
+  display: grid;
+  grid-template-columns: 13rem 13rem 13rem 13rem;
+  justify-content: center;
+  grid-template-rows: 10rem 10rem 10rem 10rem;
+  grid-gap: 3rem;
+  background-color: beige;
+}
+
+.btn  {
+  grid-row: 5;
+  grid-column: 2/4;
+  background-color: beige;
+}
+
+.accomodations {
+  grid-row: 3;
+  grid-column: 2/4;
+}
+footer {
+  background-color: beige;
+  text-align: center;
+  margin-top: 4rem;
+}
+header {
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+
+.truth-social-icon {
+  height: 1rem;
+}

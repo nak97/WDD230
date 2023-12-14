@@ -1,0 +1,37 @@
+
+
+header{
+  border: 1px solid black;
+  background-color: blue;
+}
+
+nav{
+  border: 1px solid black;
+  background-color: purple;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr  ;
+}
+
+section {
+  border: 2px solid black;
+
+}
+
+.one {
+  background-color: #0DEE0D;
+  height: 50rem;
+
+}
+
+.two {
+  background-color: #8B978B;
+}
+
+
+.three {
+background-color:#00B900 ;  
+}
+
+

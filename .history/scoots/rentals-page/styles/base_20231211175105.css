@@ -1,0 +1,82 @@
+header {
+  background-image: url(../images/OHV-SEO-1152x768.jpg);
+  background-repeat: no-repeat;
+  height: 20rem;
+  background-position: 10% 67%;
+  background-size: cover;
+  margin-top: 0 ;
+  padding-top: 0.5rem;
+}
+
+header h1 {
+  color: beige;
+  font-size: 3rem;
+  margin-top: 7rem;
+}
+
+nav {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 1000;    
+}
+
+h1 {
+  text-align: center;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.content-table thead tr {
+  background-color: beige;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.content-table td{
+  padding:12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+border-bottom:4px solid black;
+}
+
+
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  background-color: beige;
+}
+
+.truth-social-icon {
+  height: 1rem;
+}
+

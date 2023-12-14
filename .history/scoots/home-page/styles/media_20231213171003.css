@@ -1,0 +1,26 @@
+@media  screen and (max-width:1012px) {
+.scooters {
+grid-template-columns: 25rem;
+margin-bottom: 45rem;
+justify-content: center;
+}
+
+.facility-view {
+  grid-template-columns:1fr
+}
+
+.other {
+  grid-template-columns: 20rem;
+}
+
+.metro-scooter {
+  width: 20rem;
+}
+
+
+.four-wheel {
+  width:20rem;
+}
+}
+
+

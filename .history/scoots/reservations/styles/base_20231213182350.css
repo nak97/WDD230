@@ -1,0 +1,79 @@
+form {
+  display: grid;
+  grid-template-columns: 13rem 13rem 13rem 13rem;
+  justify-content: center;
+  grid-template-rows: 10rem 10rem 10rem 10rem;
+  grid-gap: 3rem;
+  border: 2px solid black;
+}
+
+.btn  {
+  grid-row: 5;
+  grid-column: 2/4;
+  background-color: beige;
+  width: 31.5rem;
+}
+
+.rental-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.accomodations {
+  grid-row: 3;
+  grid-column: 2/4;
+}
+footer {
+  background-color: beige;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+header{
+  border: 1px solid black;
+  background-image:url(../images/jeep-beach.jpg) ;
+  height: 30rem;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 100% 65%;
+}
+
+header h1 {
+  text-align: center;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 ;
+  height: 6rem;
+}
+
+nav{
+  text-align: center;
+  margin: 5rem ;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+
+.truth-social-icon {
+  height: 1rem;
+}
+label {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.reservations {
+  background-color: burlywood;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 988px) {
+  h1{
+    color: blue;
+  }
+
+  .form {
+    grid-template-columns: 13rem;
+  }
+  
+}

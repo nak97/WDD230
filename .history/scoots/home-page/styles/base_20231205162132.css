@@ -1,0 +1,36 @@
+main{ 
+  display: grid;
+  grid-template-columns: repeat(1fr,5);
+
+}
+
+section {
+  border: 2px solid black;
+
+}
+
+.one {
+  background-color: #0DEE0D;
+
+}
+
+.two {
+  background-color: #8B978B;
+}
+
+
+.three {
+background-color:#00B900 ;  
+}
+
+
+.four {
+background-color: #061906;  
+color:  white;
+}
+
+
+
+.five {
+  
+}

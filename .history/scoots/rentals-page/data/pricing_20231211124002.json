@@ -1,0 +1,81 @@
+{
+  "reservation":[
+      {
+        "type": "Honda Metro Scooter ",
+        "hd": "$20",
+        "fd": "$30"
+      },
+
+      {
+        "type": " Honda Dio Scooter",
+        "hd": "$30 ",
+        "fd": "$40 "
+      },
+
+      {
+        "type": " Honda CX150 Scooter",
+        "hd": "$40 ",
+        "fd": "$50 "
+      },
+
+
+      {
+        "type": " Honda Pioneer",
+        "hd": "$50 ",
+        "fd": "$70 "
+      },
+
+      {
+        "type": " Jeep Wrangler - 4 door with a/c",
+        "hd": "$70 ",
+        "fd": "$100 "
+      },
+
+      {
+        "type": " Jeep Wrangler - 2 door ",
+        "hd": "$60 ",
+        "fd": "$85 "
+      }
+  ],
+
+  "walk ins":[
+{
+  "type": "Honda Metro Scooter ",
+  "hd": "$25",
+  "fd": "$35"
+},
+
+{
+  "type": " Honda Dio Scooter",
+  "hd": "$35 ",
+  "fd": "$45 "
+},
+
+{
+  "type": " Honda CX150 Scooter",
+  "hd": "$45 ",
+  "fd": "$55 "
+},
+
+{
+  "type": " Honda Pioneer",
+  "hd": "$60 ",
+  "fd": "$80 "
+},
+
+{
+  "type": " Jeep Wrangler - 4 door with a/c",
+  "hd": "$85 ",
+  "fd": "$125 "
+},
+
+{
+  "type": " Jeep Wrangler - 2 door ",
+  "hd": "$70 ",
+  "fd": "$90 "
+}
+
+  ]
+}
+
+

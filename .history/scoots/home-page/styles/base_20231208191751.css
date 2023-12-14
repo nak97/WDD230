@@ -1,0 +1,130 @@
+
+
+header{
+  border: 1px solid black;
+  background-image:url(../images/jeep-beach.jpg) ;
+  height: 30rem;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 100% 65%;
+}
+
+nav a{
+  text-decoration: none;
+
+}
+nav{
+text-align: center;
+margin-top: 1rem;
+}
+
+.max-temp {
+  width: 10rem;
+  height: 5rem;
+  float: right;
+}
+#x {
+  position: relative;
+  bottom: 14px;
+  left: 123px;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr  ;
+}
+.options {
+  text-align: center
+}
+
+.scooter-title {
+  text-align: center;
+}
+
+.scooters {
+  background-color: ;
+  height: 23rem;
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem;
+  justify-content: center;
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.four-wheeled{
+text-align: center;
+}
+
+.four-wheel {
+  width: 20rem;
+}
+
+.pioneer {
+  height: 22rem;
+}
+
+.other  {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem ;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+
+div{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  
+}
+
+
+.metro-scooter {
+  height: 15rem;
+  width: 20rem;;
+}
+
+.scooter:hover{
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.jeep:hover {
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.weather{
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.tomorrow {
+  border:1px solid black;
+}
+.weather-card-one {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.tomorrow {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+
+
+
+.two {
+  background-color: #8B978B;
+}
+
+
+.weather {
+background-color: ;  
+margin-top: 2rem;
+}
+
+

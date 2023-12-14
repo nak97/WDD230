@@ -1,0 +1,167 @@
+
+
+header{
+  border: 1px solid black;
+  background-image:url(../images/jeep-beach.jpg) ;
+  height: 30rem;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 100% 65%;
+}
+header h1 {
+  color: beige;
+}
+header a {
+  text-decoration: none;
+}
+
+header a h1 {
+  width: 8.5rem;
+}
+
+header a h1:hover {
+  background-color:rgba(0, 0, 0, .2) ;
+color: black;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 1000; 
+
+}
+nav{
+text-align: center;
+margin-top: 1rem;
+}
+
+.facility-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.facility-view {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+.facility {
+  height: 22rem;
+}
+.view{
+  height: 22rem;
+}
+
+.max-temp {
+  width: 10rem;
+  height: 5rem;
+margin-left: 10rem;
+
+}
+#x {
+  position: relative;
+  bottom: 14px;
+  left: 123px;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr  ;
+}
+.options {
+  text-align: center
+}
+
+.scooter-title {
+  text-align: center;
+}
+
+.scooters {
+  height: 23rem;
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem;
+  justify-content: center;
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.four-wheeled{
+text-align: center;
+}
+
+.four-wheel {
+  width: 20rem;
+}
+
+.four-wheel-td {
+  margin-bottom: 2rem;
+}
+
+.pioneer {
+  height: 22rem;
+}
+
+.atvs h1{
+  font-size: 1.4em;
+}
+
+.other  {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem ;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+div{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.metro-scooter {
+  height: 15rem;
+  width: 20rem;;
+}
+
+.scooter:hover{
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.jeep:hover {
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.weather{
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  grid-gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.current-weather-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.tomorrow-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.truth-social-icon{
+  height: 1rem;
+}
+
+footer {
+  background-color: beige;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.home {
+  background-color: burlywood;
+}

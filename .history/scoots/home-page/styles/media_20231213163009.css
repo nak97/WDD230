@@ -1,0 +1,21 @@
+@media  screen and (max-width:1327px) {
+h1{
+  color: blue;
+}
+
+
+.facility-view {
+  grid-template-columns:1fr
+}
+
+
+}
+
+
+@media screen and(max-width:1012px){
+.scooters {
+grid-template-columns: 1fr;
+}
+
+
+}

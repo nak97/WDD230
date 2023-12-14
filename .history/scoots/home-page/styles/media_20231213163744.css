@@ -1,0 +1,37 @@
+@media  screen and (max-width:1012px) {
+
+
+  h1{
+    color: blue;
+  }
+.scooters {
+grid-template-columns: 25rem;
+margin-bottom: 45rem;
+justify-content: center;
+
+}
+
+
+
+.facility-view {
+  grid-template-columns:1fr
+}
+
+.other {
+  grid-template-columns: 25rem;
+}
+
+}
+
+
+/* @media screen and(max-width:1012px){
+
+  h1{
+    color: blue;
+  }
+.scooters {
+grid-template-columns: 1fr;
+}
+
+
+} */

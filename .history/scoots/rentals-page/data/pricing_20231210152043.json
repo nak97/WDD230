@@ -1,0 +1,81 @@
+{
+  "reservation":[
+      {
+        "type": "Honda Metro Scooter ",
+        "half Day": "$20",
+        "full day": "$30"
+      },
+
+      {
+        "type": " Honda Dio Scooter",
+        "half day": "$30 ",
+        "full day": "$40 "
+      },
+
+      {
+        "type": " Honda CX150 Scooter",
+        "half day": "$40 ",
+        "full day": "$50 "
+      },
+
+
+      {
+        "type": " Honda Pioneer",
+        "half day": "$50 ",
+        "full day": "$70 "
+      },
+
+      {
+        "type": " Jeep Wrangler - 4 door with a/c",
+        "half day": "$70 ",
+        "full day": "$100 "
+      },
+
+      {
+        "type": " Jeep Wrangler - 2 door ",
+        "half day": "$60 ",
+        "full day": "$85 "
+      }
+  ],
+
+  "walk ins":[
+{
+  "type": "Honda Metro Scooter ",
+  "half Day": "$25",
+  "full day": "$35"
+},
+
+{
+  "type": " Honda Dio Scooter",
+  "half day": "$35 ",
+  "full day": "$45 "
+},
+
+{
+  "type": " Honda CX150 Scooter",
+  "half day": "$45 ",
+  "full day": "$55 "
+},
+
+{
+  "type": " Honda Pioneer",
+  "half day": "$60 ",
+  "full day": "$80 "
+},
+
+{
+  "type": " Jeep Wrangler - 4 door with a/c",
+  "half day": "$85 ",
+  "full day": "$125 "
+},
+
+{
+  "type": " Jeep Wrangler - 2 door ",
+  "half day": "$70 ",
+  "full day": "$90 "
+}
+
+  ]
+}
+
+
